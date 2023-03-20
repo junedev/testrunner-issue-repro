@@ -1,6 +1,6 @@
 FROM golang:1.19.7-alpine3.17
 
-RUN adduser --disabled-password --gecos "" appuser
+RUN adduser --disabled-password appuser
 
 COPY . .
 
